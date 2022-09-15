@@ -134,7 +134,6 @@ def main_logic(phrase):
 
 # handel hangup logic actions
 def hangup_logic(phrase):
-    print(phrase)
     value_updater(phrase)
     prompt = logics[2][1][phrase]
     print("Anne= > "+prompt)
